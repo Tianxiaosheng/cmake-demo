@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/xiaosheng/demo_plus2/math/MathFuncations.c
+/home/xiaosheng/my_test/demo_plus2/cmake-demo/math/MathFuncations.c
 MathFuncations.h
-/home/xiaosheng/demo_plus2/math/MathFuncations.h
+/home/xiaosheng/my_test/demo_plus2/cmake-demo/math/MathFuncations.h
 
-/home/xiaosheng/demo_plus2/math/MathFuncations.h
+/home/xiaosheng/my_test/demo_plus2/cmake-demo/math/MathFuncations.h
 

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/xiaosheng/demo_plus2/main.c" "/home/xiaosheng/demo_plus2/build/CMakeFiles/demo.dir/main.c.o"
+  "/home/xiaosheng/my_test/demo_plus2/cmake-demo/main.c" "/home/xiaosheng/my_test/demo_plus2/cmake-demo/build/CMakeFiles/demo.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -15,7 +15,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/xiaosheng/demo_plus2/build/math/CMakeFiles/MathFuncations.dir/DependInfo.cmake"
+  "/home/xiaosheng/my_test/demo_plus2/cmake-demo/build/math/CMakeFiles/MathFuncations.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

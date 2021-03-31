@@ -1,4 +1,4 @@
-# Install script for directory: /home/xiaosheng/demo_plus2
+# Install script for directory: /home/xiaosheng/my_test/demo_plus2/cmake-demo
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -32,9 +32,14 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
   set(CMAKE_INSTALL_SO_NO_EXE "1")
 endif()
 
+# Is this installation the result of a crosscompile?
+if(NOT DEFINED CMAKE_CROSSCOMPILING)
+  set(CMAKE_CROSSCOMPILING "FALSE")
+endif()
+
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/xiaosheng/demo_plus2/build/math/cmake_install.cmake")
+  include("/home/xiaosheng/my_test/demo_plus2/cmake-demo/build/math/cmake_install.cmake")
 
 endif()
 
@@ -46,5 +51,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/xiaosheng/demo_plus2/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/xiaosheng/my_test/demo_plus2/cmake-demo/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

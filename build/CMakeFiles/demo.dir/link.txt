@@ -1,1 +1,1 @@
-/usr/bin/cc     CMakeFiles/demo.dir/main.c.o  -o demo -rdynamic math/libMathFuncations.a 
+/usr/bin/cc   -rdynamic CMakeFiles/demo.dir/main.c.o  -o demo math/libMathFuncations.a 
